@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Login Page</title>
+    <!-- link rel="stylesheet" type="text/css" href="style.css"/ -->
+    <script type="text/javascript" src="js/vue2.js"></script>
+    <!-- script type="text/javascript" src="libs/axios/axios.js" -->
+    <script src="js/login.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body id="indexbody">
+    <div class="Login" id="Login">
+        <div class="container">
+            <div class="text-elements">
+                <h1>Welcome to The Fake Bank & Co.</h1>
+                <!--h2>Once you give us your money, you won't see it anymore...</h2 -->
+                <a href="#">Become a client!!!</a>
+                <header id="header-login">
+                    <h2>If you are a client, please fill-in the fields to get connected</h2>
+                    <form id="login-form" method="post">
+                        <div class="text-field">
+                            <input v-model="username" type="text" name="username" required autocomplete="off"/>
+                            <span></span>
+                            <label for="username"><b>Username (email)</b></label>
+                        </div> <!--text-field - username-->
+                        <div class="text-field">
+                            <input v-model="password" type="password" name="password" required autocomplete="off"/>
+                            <span></span>
+                            <label for="password"><b>Password</b></label>
+                        </div> <!--text-field - password-->
+                        <div class="LoginBTN">
+                            <input type="button" value="Get in >>>" id="loginBTN" @click="validate()"/>
+                        </div> <!--LoginBTN-->
+                    </form> <!--login-form-->
+                    <h3>DISCLAIMER: This company does not exits, the name is used for learning purposses (HTML + CSS + Vue.js + C# + SQL Server + Azure), this is a not real application</h3>
+                    <h3>Personal data such as emails or addresses will not be shared. This environment will be destroyed once is used.</h3>
+                </header> <!--header-login-->
+            </div> <!--text-elements-->
+            <img src="images/07.png" />
+
+        </div> <!--container-->
+    </div> 
+    <div class="wave">
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C150.00,150.00 349.21,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </div> <!--wave-->
+</body> <!--indexbody-->
+</html>

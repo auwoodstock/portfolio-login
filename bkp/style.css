@@ -1,0 +1,86 @@
+/*@import url("fontawesome-all.min.css");*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,600&display=swap');
+
+/*
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+#indexbody{
+    /* background: #007991;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to left, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header{
+    height: auto;
+    padding: 30px;
+    width: 100%;
+}
+
+.container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    justify-content: space-around;
+}
+
+img{
+    display: block;
+    height: 400px;
+    object-fit: cover;
+    width: auto;
+}
+
+.text-elements{
+        width: 50%;
+        color:#fff;
+        font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.text-elements h1{
+    color: #fff;
+    font-size: 32px;
+    width: 95%;
+}
+
+.text-elements h2{
+    color: #fff;
+    font-size: 20px;
+}
+
+.text-elements h3{
+    color: yellow;
+    font-size: 16px;
+    font-style: bold;
+}
+
+.text-elements a{
+    display: inline-block;
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    width: 150px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.wave{
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100px;
+    width: 100%;
+}
